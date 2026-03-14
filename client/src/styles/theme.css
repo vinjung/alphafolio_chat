@@ -1,0 +1,111 @@
+@theme {
+    /* gradient color custom-style */
+    --gradient-primary: conic-gradient(from -3.29deg at 100% -13%,
+            #ffeeee 0deg,
+            #ff2233 360deg);
+
+    /* red(Brand) */
+    --color-red-900: oklch(0.64 0.2459 25.22);
+    --color-red-80: oklch(0.87 0.0715 13.26);
+    --color-red-50: oklch(0.96 0.018456 17.4783);
+
+    /* blue */
+    --color-blue-900: oklch(0.57 0.1997 264.58);
+    --color-blue-50: oklch(0.92 0.0319 246.71);
+
+    /* Neutral scale (0 – 1100) */
+    --color-neutral-0: oklch(1 0 0);
+    --color-neutral-100: oklch(0.98 0.0083 236.56);
+    --color-neutral-200: oklch(0.95 0.0084 236.56);
+    --color-neutral-300: oklch(0.82 0.0148 238.06);
+    --color-neutral-400: oklch(0.74 0.0125 231.72);
+    --color-neutral-500: oklch(0.66 0.0119 234.92);
+    --color-neutral-600: oklch(0.58 0.0105 242.95);
+    --color-neutral-700: oklch(0.5 0.0079 233.77);
+    --color-neutral-800: oklch(0.4065 0.0073 239.99);
+    --color-neutral-900: oklch(0.31 0.0045 247.97);
+    --color-neutral-1000: oklch(0.21 0.0037 228.98);
+    --color-neutral-1100: oklch(0 0 0);
+
+    /* Headline */
+
+    /* H1/40px/130%/-2%/Bold */
+    --text-h1: 2.5rem;
+    --text-h1--line-height: 1.3;
+    --text-h1--letter-spacing: -0.02em;
+    --text-h1--font-weight: 700;
+
+    /* H2/36px/130%/-2%/Bold */
+    --text-h2: 2.25rem;
+    --text-h2--line-height: 1.3;
+    --text-h2--letter-spacing: -0.02em;
+    --text-h2--font-weight: 700;
+
+    /* H3/32px/130%/-2%/Bold */
+    --text-h3: 2rem;
+    --text-h3--line-height: 1.3;
+    --text-h3--letter-spacing: -0.02em;
+    --text-h3--font-weight: 700;
+
+    /* Title */
+
+    /* T1/24px/150%/-2%/Bold */
+    --text-t1: 1.5rem;
+    --text-t1--line-height: 1.5;
+    --text-t1--letter-spacing: -0.02em;
+    --text-t1--font-weight: 700;
+
+    /* T2/20px/150%/-2%/Bold */
+    --text-t2: 1.25rem;
+    --text-t2--line-height: 1.5;
+    --text-t2--letter-spacing: -0.02em;
+    --text-t2--font-weight: 700;
+
+    /* Subtitle */
+
+    /* S1/16px/160%/-1%/Bold */
+    --text-s1: 1rem;
+    --text-s1--line-height: 1.6;
+    --text-s1--letter-spacing: -0.01em;
+    --text-s1--font-weight: 700;
+
+    /* S2/14px/160%/-1%/Bold */
+    --text-s2: 0.875rem;
+    --text-s2--line-height: 1.6;
+    --text-s2--letter-spacing: -0.01em;
+    --text-s2--font-weight: 700;
+
+    /* S3/11px/160%/-1%/Bold */
+    --text-s3: 0.6875rem;
+    --text-s3--line-height: 1.6;
+    --text-s3--letter-spacing: -0.01em;
+    --text-s3--font-weight: 700;
+
+    /* Body */
+
+    /* B1/16px/160%/-1%/Regular */
+    --text-b1: 1rem;
+    --text-b1--line-height: 1.6;
+    --text-b1--letter-spacing: -0.01em;
+    --text-b1--font-weight: 400;
+
+    /* B2/14px/160%/-1%/Regular */
+    --text-b2: 0.875rem;
+    --text-b2--line-height: 1.6;
+    --text-b2--letter-spacing: -0.01em;
+    --text-b2--font-weight: 400;
+
+    /* B3/12px/160%/-1%/Regular */
+    --text-b3: 0.75rem;
+    --text-b3--line-height: 1.6;
+    --text-b3--letter-spacing: -0.01em;
+    --text-b3--font-weight: 400;
+
+    /* B4/9px/160%/-1%/Regular */
+    --text-b4: 0.5625rem;
+    --text-b4--line-height: 1.6;
+    --text-b4--letter-spacing: -0.01em;
+    --text-b4--font-weight: 400;
+
+    --shadow-card: 0 4px 43.5px 0 rgba(18, 25, 46, 0.06);
+}

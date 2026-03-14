@@ -1,0 +1,41 @@
+# Core
+asyncpg>=0.30.0
+fastapi>=0.115.12
+uvicorn[standard]>=0.34.2
+pydantic>=2.11.5
+pydantic-settings>=2.9.1
+python-dotenv>=1.1.0
+
+# LangChain
+langchain>=0.3.26
+langchain-core>=0.3.68
+langchain-openai>=0.3.27
+langchain-anthropic>=0.3.17
+langchain-google-genai>=2.1.5
+langchain-perplexity>=0.1.1
+langchain-community>=0.3.27
+langchain-google-community>=2.0.7
+langchain-text-splitters>=0.3.8
+
+# LangGraph
+langgraph>=0.5.1
+langgraph-checkpoint>=2.1.0
+langgraph-prebuilt>=0.5.2
+langgraph-sdk>=0.1.72
+langsmith>=0.3.45
+
+# LLM APIs
+openai>=1.93.1
+
+# Vector Store
+chromadb>=1.1.0
+
+# Redis
+redis>=6.2.0
+
+# Rate Limiting
+slowapi>=0.1.9
+
+# Search
+google-search-results>=2.4.2
+rapidfuzz>=3.0.0

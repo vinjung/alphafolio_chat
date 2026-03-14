@@ -1,0 +1,1 @@
+invalid type: string "Korean: 코스피 코스닥 나스닥 NYSE 시장지수 주가지수\n\nTable: market_index\nDescription: Market index data (KOSPI, KOSDAQ, NASDAQ, NYSE)\nPrimary Key: (exchange, date)\nColumns:\n- exchange (VARCHAR): Index name (KOSPI, KOSDAQ, NASDAQ, NYSE)\n- date (DATE): Trading date\n- close (NUMERIC): Closing value\n- open (NUMERIC): Opening value\n time\nboolean��������
